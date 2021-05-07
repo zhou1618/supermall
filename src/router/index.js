@@ -9,7 +9,7 @@ const Profile = () => import('../views/profile/Profile')
 
 //安装插件
 Vue.use(VueRouter)
-//配置路径和组件直接的映射关系
+//配置路径和组件之间的映射关系
 const routes = [
   {
     path: '',
