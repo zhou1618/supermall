@@ -32,16 +32,19 @@ export default {
 
 <style>
   .tab-control {
+    position: relative;
+    top: -2px;
     display: flex;
     text-align: center;
     font-size: 15px;
     height: 40px;
-    line-height: 40px;
+    line-height: 39px;
     background-color: #fff;
-    z-index: 9;
+    z-index: 1;
   }
 
   .tab-control-item {
+    margin: 1px;
     flex: 1;
   }
 
